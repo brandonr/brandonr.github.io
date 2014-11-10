@@ -97,6 +97,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color:#45425f;
+    font-family:'Ovo',serif;
+    padding:60px;
+}
+
+img {
+}
+
+h1 {
+    color:#978d89;
+    font-size:3rem;
+    font-weight:400;
+    line-height:1.25em;
+    max-width:800px;
+}
+
+footer {
+    color:#978d89;
+    font-size:1rem;
+    margin:3rem 0 0;
+}
+
+
+
 
 
 
