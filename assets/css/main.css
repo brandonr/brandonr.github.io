@@ -99,7 +99,7 @@ textarea {
 
 body {
     background-color:#45425f;
-    font-family:'Ovo',serif;
+    font-family: 'Playfair Display', serif;
     padding:60px;
 }
 
@@ -109,7 +109,7 @@ img {
 h1 {
     color:#978d89;
     font-size:3rem;
-    font-weight:400;
+    font-weight:normal;
     line-height:1.25em;
     max-width:800px;
 }
