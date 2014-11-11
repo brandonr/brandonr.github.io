@@ -98,24 +98,25 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color:#45425f;
-    font-family: 'Playfair Display', serif;
+    background-color:#3a3a4f;
+    font-family: 'Droid Serif', serif;
     padding:60px;
 }
 
 img {
+    border-radius:100px;
 }
 
 h1 {
-    color:#978d89;
-    font-size:3rem;
-    font-weight:normal;
-    line-height:1.25em;
+    color:#afbed3;
+    font-size:2.25rem;
+    font-weight:400;
+    line-height:1.4em;
     max-width:800px;
 }
 
 footer {
-    color:#978d89;
+    color:#afbed3;
     font-size:1rem;
     margin:3rem 0 0;
 }
@@ -245,7 +246,17 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 40em) {
+
+h1 {
+    font-size:1.5rem;
+}
+
+img {
+    width:140px;
+    height:140px;
+    border-radius:70px;
+}
     /* Style adjustments for viewports that meet the condition */
 }
 
