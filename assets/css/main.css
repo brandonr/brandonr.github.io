@@ -98,27 +98,35 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color:#3a3a4f;
+    background-color:#070624;
+    background: url(/assets/images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: 'Droid Serif', serif;
     padding:3.75rem;
 }
 
 img {
     border-radius:6.25rem;
+    box-shadow:rgba(0,0,0,0.2) 0 0.1rem 0.1rem;
 }
 
 h1 {
-    color:#afbed3;
+    color:#fff;
     font-size:2.25rem;
     font-weight:400;
     line-height:1.4em;
     max-width:50rem;
+    text-shadow:rgba(0,0,0,0.2) 0 0.1rem 0.1rem;
 }
 
 footer {
-    color:#afbed3;
+    color:#fff;
     font-size:1rem;
     margin:3rem 0 0;
+    text-shadow:rgba(0,0,0,0.2) 0 0.1rem 0.1rem;
 }
 
 
@@ -235,6 +243,7 @@ footer {
 @media only screen and (max-width: 40rem) {
 
 body {
+    background: url(/assets/images/bg.jpg) no-repeat center 70% fixed;
     padding:2rem 1.25rem 1.25rem;
 }
 
